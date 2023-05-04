@@ -1,0 +1,11 @@
+NOBITA
+f=open("dic/targets.txt","r")
+targets = f.readlines()
+for target in targets:
+        target = target.strip()
+
+GIGANTE
+contrasenas = open("dic/archivoPasswords.txt", "r")
+passwords = contrasenas.readlines()
+for contrasena1 in passwords:
+		p=contrasena1.rstrip()
